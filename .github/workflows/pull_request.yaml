@@ -7,6 +7,10 @@ on:
 env:
   AWS_REGION: "us-east-1"
 
+permissions:
+    contents: read
+    id-token: write
+
 jobs:
   example:
     name: Pull request jobs
